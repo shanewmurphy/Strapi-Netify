@@ -1,0 +1,18 @@
+{
+  "host": "https://strap-test.netlify.com",
+  "port": "${process.env.PORT || 301}",
+  "production": true,
+  "proxy": {
+    "enabled": false
+  },
+  "autoReload": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "path": "https://strap-test.netlify.com/dashboard",
+    "autoOpen": false
+  }
+}

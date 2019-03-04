@@ -1,0 +1,17 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "mysql3791.cp.blacknight.com",
+        "port": 3306,
+        "database": "db1335154_StrapiCMS4",
+        "username": "u1335154_strapi_",
+        "password": "HRuaJ2Ht"
+      },
+      "options": {}
+    }
+  }
+}
